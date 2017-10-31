@@ -1,0 +1,51 @@
+.navbar-home {
+  transition: all 0.3s ease;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  button {
+  }
+}
+
+/* Logo */
+.navbar-home-brand img {
+  height: 44px;
+  align-items: center;
+
+}
+
+
+/* Right section */
+.navbar-home-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: avenir;
+}
+
+/* Basic navbar item */
+.navbar-home-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-home-link {
+  color: #1E56A0;
+  font-size: 18px;
+  text-decoration: none;
+}
+.navbar-home-link:hover {
+  color: #D6E4F0;
+  text-decoration: none;
+}
+
+.navbar-home-link:focus,.navbar-home-link:active  {
+  color: white;
+  text-decoration: none;
+}
+
+
+
