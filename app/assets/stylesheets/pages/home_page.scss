@@ -1,0 +1,14 @@
+.background_squad{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
+  image-url('background.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.background_squad p{
+  color: white;
+  margin-top: 0px
+}
